@@ -1,0 +1,431 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+#page
+{
+	margin: 0px auto;
+}
+
+#header {
+	position:fixed;
+	width: 100%;
+}
+#logo img {
+	float:left;
+	height: 5%;
+	width: 5%;
+	margin: 2%;
+	position: relative;
+}
+#home-wrapper{
+	width:100%;
+	height:87%;
+	
+}
+.title
+{
+	position: absolute;
+	text-align:center;
+	margin-top: 18%;
+	margin-left:42%;
+	color:#fff;
+	font-family: Serif;
+}
+
+.title h1
+{
+text-transform: uppercase;
+}
+
+h2{
+	color:white;
+}
+.photo img 
+{
+	width:100%;
+	height:40%;
+	background-position: center;
+	background-size: cover;
+	margin: 20px;
+	
+}
+
+ul {
+	list-style: none;
+	margin-top: 15px;
+}
+
+
+ul li {
+		display:inline-block;
+		padding:10px;
+		text-transform: uppercase;
+		font-family: Constantia;
+		font-weight: bold;
+		font-size: 16px;
+
+	}
+
+#navigation ul {
+	float: right;
+	position: relative;
+	display: flex;
+
+}
+#navigation >li{
+	margin-left:20px;
+}
+
+#main{
+	width:100%;
+}
+
+#products{
+	width: 100%;
+	margin:50px auto;
+	background:rgb(0,0,0);
+}
+
+#products h2{
+	text-align:center;
+	color:begie;
+	font-weight: bold;
+	margin:2px;
+}
+.cleaner{
+	clear:both;
+}
+a{
+	text-decoration:none;
+	color: white;
+	transition: 0.3s;
+}
+
+a:hover{
+	color:yellow;
+}
+
+#aboutPhoto img{
+	max-width: 35%;
+	margin-left: 40px;
+	margin-top: 20px;
+	/*width: 30%;*/
+	float:right;
+}
+
+#aboutPhotoText{
+	float: left;
+	max-width: 40%;
+	margin-top: 20px;
+	margin-left:40px;
+}
+#aboutPhotoText p {
+text-align: justify;
+
+}
+
+.gallery{
+	display:inline-block;
+	float:left;
+	margin: 10px;
+	position: relative;
+}
+
+.gallery img{
+	transition:1s;
+	padding: 15px;
+	width: 350px;
+}
+
+.swordProducts{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align:center;
+	color: sadlebrown;
+	background: rgb(255,255,255);
+	opacity:65%;
+	width: 90%;
+	margin:5%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+	transition: 0.5s;
+	display:none;
+}
+.swordProducts a{
+	color:darkblue;
+}
+
+#about_us {
+	background-color:rgb(21,21,24);
+	width:100%;
+	margin-top:10px;
+}
+
+#about_us p{
+	color:rgb(255,255,255);
+	
+}
+
+#about_us h5{
+	color:rgb(255,255,255);
+	
+}
+
+#about_us i{
+	color:rgb(255,255,255);
+	text-align:left;
+}
+
+.text-left {
+	float: left;
+	width: 50%;
+	padding-right: 15px;
+	padding-left: 40px;
+	margin: 20px;
+	text-align: justify;
+	
+}
+
+
+.video1 {
+	max-height: 400px;
+	width:40%;
+	float: right;
+	padding-right: 15px;
+	margin-top: 20px;
+
+}
+.video1 iframe{
+	width:100%;
+	
+}
+
+#slider img{
+	width:100%;
+}
+
+#contact{
+	background-image:url('knife.jpg');
+}
+#forms{
+	padding:60px 40px;
+	background-color:rgb(16,16,18);
+	opacity:0.9;
+	
+}
+	#forms h4 {
+		color:rgb(255,255,255);
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-bottom: 40px;
+		font-family: 'Times New Roman', Times, serif;
+		margin-left: 40px;
+	}
+	
+.text-tabs .validation{
+	color:yellow;
+	margin-bottom:15px;
+	padding-left:10px;
+}
+.validation{
+	border: 1px solid black;
+	font-size:16px;
+	background:transparent;
+	height:50px;
+	border-radius:0;
+	margin-bottom:20px;
+}
+.validation {
+	color:wheat;
+}
+#send{
+	margin-top:20px;
+	padding:5px;
+	color:#ffffff;
+	background-color:#111111;
+	font-size:16px;
+	text-transform:uppercase;
+}
+
+#author{
+	width:100%;
+	z-index:20;
+	left:0;
+	top:0;
+	background-color:rgb(255,255,255);
+	padding: 20px;
+}
+
+#author h2{
+	text-align: center;
+	color:black;
+}
+#imageAuthor{
+
+}
+#author .picture{
+	width:40px;
+	height:30px;
+	
+}
+
+#imageAuthor img{
+	max-width:30%;
+	height:350px;
+	border-radius: 50%;
+	float:right;
+	padding:20px;
+	margin-right:20px;
+}
+#textAuthor{
+	float: left;
+	margin:30px;
+	padding: 30px;
+	text-align:justify;
+	font-family:'Times New Roman';
+	font-size:16px;
+	width:50%;
+	border:2px solid black;
+}
+#footer {
+	background:rgb(0,0,0);
+	color: white;
+	width: 100%;
+	padding: 25px;
+}
+#links{
+	text-align:center;
+}
+#links ul li{
+	display: inline-block;
+	color: white;
+}
+#copyright{
+	display: block;
+	text-align: center;
+}
+.danger{
+	border:2px solid red;
+}
+.value{
+	visibility:hidden;
+}
+.menuHover {
+	color: black;
+	font-size:20px;
+}
+
+.chart {
+    background: black;
+	margin-top: 5px;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 10px 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+}
+ .chart #value1 {
+        
+        margin-left: 7px;
+        color: white;
+        font-weight: bolder;
+    }
+ .chart #value2 {
+        
+        margin-left: 7px;
+        color: yellow;
+        font-weight: bolder;
+    }
+ .chart #value3 {
+        
+        margin-left: 7px;
+        color: blue;
+        font-weight: bolder;
+    }
+.name{
+	padding:3px;
+}
+.bar {
+   
+    animation: load 3s normal forwards;
+  
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: white;
+    height: 30px;
+    width: 0;
+}
+.bar1 {
+   
+    animation: load 3s normal forwards;
+  
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background:yellow;
+    height: 30px;
+    width: 0;
+}  
+.bar2 {
+   
+    animation: load 3s normal forwards;
+  
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background:rgb(0,0,255);
+    height: 30px;
+    width: 0;
+	
+}  
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+    100% {
+      
+        width: 51%;
+    }
+}
+
+
+#scrollUp{
+	position: fixed;
+ display: none;
+ background: rgba(0, 0, 0, 0.2);
+ color: #fff;
+ padding: 7px 13px 8px 13px;
+ font-size: 14px;
+ border-radius: 2px;
+ right: 14px;
+ bottom: 14px;
+ transition: background 0.5s;
+}
+#scrollUp:focus {
+ background: rgba(0, 0, 0, 0.2);
+ color: #fff;
+ outline: none;
+}
+#scrollUp:hover {
+ background: #2dc997;
+ color: #fff;
+}
+#scrollUp i {
+	color: black;
+	margin:0;
+	position:relative;
+	left: 13px;
+	top:10px;
+}
+#counting{
+	color:white;
+}
